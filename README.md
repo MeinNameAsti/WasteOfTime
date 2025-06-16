@@ -10,13 +10,20 @@ Screenshot folgt noch
 
 ## ✔️ ToDo´s
 
-- ~~legend: placement outside of plot~~
-- ~~legend: select which data set to display~~
-- ~~legend: checkbox, color box and label should be side by side~~
-- ~~detail plot: highlight grid dependent on selected range:~~
-  - ~~highlight weekends (sample at http://www.flotcharts.org/flot/examples/visitors/index.html),~~
-- add buttons for selecting specific ranges (ie last 24h, last week, last month) and jumping to previous/next range.
-- Statistics
+- ~~Grundgerüst erstellen~~
+- Startseite erstellen
+- Hauptseite erstellen
+- Timer mit den Funktionen Start, Pause uns Reset
+- Navigationsleiste oben oder unten erstellen mit "Profil", "einstellungen" und "shop"
+- Nach ablauf bestimmter Zeit Sätze einblenden
+- "verschendete Zeit" zusammenrechnen lassen und als "Spielwährung" anzeigen
+- Shop erstellen, indem man die "verschwendete Zeit" einlösen kann
+- Einstellungsseite erstellen
+- Profilseite erstellen
+- Rangstufen einführen für´s Profil
+- Icon für App einfügen
+- Namen im code (z.B für klassennamen usw) alle einheitlich
+- Screen für Login (Formular)
 
 ## 🟦 Color Reference
 
