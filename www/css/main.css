@@ -1,7 +1,7 @@
 body {
   margin: 0;
   padding: 0;
-  background-image: url("/www/img/home.jpg");
+  background-color: #b4ebff;
   background-size: cover;
   background-position: center;
   height: 100vh;
@@ -9,7 +9,7 @@ body {
   color: #65574d;
 }
 
-.welcomeText {
+.mainContent {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;

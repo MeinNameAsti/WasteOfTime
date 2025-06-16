@@ -4,19 +4,17 @@ A little game with a timer where you are rewarded for doing nothing
 
 ## 🕑 Current status
 
-Screenshot folgt noch
-
-[Screenshot folgt noch]: #
+![screenshot](/www/notizen/Aktueller_status.png)
 
 ## ✔️ ToDo´s
 
 - ~~Grundgerüst erstellen~~
-- Startseite erstellen
+- ~~Startseite erstellen~~
 - Hauptseite erstellen
 - Timer mit den Funktionen Start, Pause uns Reset
-- Navigationsleiste oben oder unten erstellen mit "Profil", "einstellungen" und "shop"
-- Nach ablauf bestimmter Zeit Sätze einblenden
-- "verschendete Zeit" zusammenrechnen lassen und als "Spielwährung" anzeigen
+- Navigationsleiste oben oder unten erstellen mit "Profil", "Einstellungen" und "Shop"
+- Nach Ablauf bestimmter Zeit Sätze einblenden
+- "verschwendete Zeit" zusammenrechnen lassen und als "Spielwährung" anzeigen
 - Shop erstellen, indem man die "verschwendete Zeit" einlösen kann
 - Einstellungsseite erstellen
 - Profilseite erstellen
