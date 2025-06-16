@@ -8,10 +8,35 @@
   </head>
   <body>
     <main>
-      <h1>Shop</h1>
-      <p>Test...</p>
+      <br /><br />
+      <main class="shop-container">
+        <h1>🛒 Shop</h1>
+        <div class="shop-item">
+          <h2>Wandle deine verschwendete Zeit in Münzen um</h2>
+          <p>Beschreibung: 15 Minuten verschwendete Zeit geben dir 5 Münzen</p>
+          <button onclick="kaufen('umwandler')">Kaufen</button>
+        </div>
+        <div class="shop-item">
+          <h2>Item: XYZ 3000</h2>
+          <p>
+            Beschreibung: lässt die Zeit einmalig für 30 sekunden schneller
+            vergehen
+          </p>
+          <p class="preis">💰 Preis: 10 Münzen</p>
+          <button onclick="kaufen('XYZ 3000')">Kaufen</button>
+        </div>
+        <div class="shop-item">
+          <h2>Item: Irgendwas 500</h2>
+          <p>Beschreibung: Erzeugt 5 neue Shopitems</p>
+          <p class="preis">💰 Preis: 100 Münzen</p>
+          <button onclick="kaufen('Irgendwas 500')">Kaufen</button>
+        </div>
+      </main>
+      <br /><br /><br />
+      ⏱️ verschwendete Zeit: XX Minuten<br />
+      💰 Münzen: XX Münzen <br /><br /><br />
       <div class="return-button">
-        <button onclick="goBack()">◀</button>
+        <button onclick="goBack()">←</button>
       </div>
     </main>
     <script src="/www/js/shop.js"></script>
