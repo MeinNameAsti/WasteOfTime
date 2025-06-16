@@ -37,3 +37,23 @@ button {
 button:hover {
   background-color: #ddd;
 }
+
+main {
+  text-align: center;
+}
+
+#timer {
+  font-size: 3em;
+  margin: 20px 0;
+}
+
+.buttons button {
+  padding: 10px 20px;
+  margin: 5px;
+  font-size: 1em;
+}
+
+#comment {
+  margin-top: 20px;
+  color: #65574d;
+}
