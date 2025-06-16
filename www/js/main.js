@@ -50,3 +50,7 @@ function updateComment(seconds) {
     commentDisplay.textContent = comments[seconds];
   }
 }
+
+function navigateTo(page) {
+  window.location.href = page;
+}
