@@ -1,4 +1,5 @@
 let timer = 0;
+let totalWastedTime = 0;
 let interval = null;
 
 const timerDisplay = document.getElementById("timer");
@@ -6,6 +7,7 @@ const commentDisplay = document.getElementById("comment");
 const startBtn = document.getElementById("start");
 const stopBtn = document.getElementById("stop");
 const resetBtn = document.getElementById("reset");
+const wastedTimeDisplay = document.getElementById("wastedTime");
 
 startBtn.addEventListener("click", () => {
   if (!interval) {
@@ -25,8 +27,10 @@ stopBtn.addEventListener("click", () => {
 resetBtn.addEventListener("click", () => {
   clearInterval(interval);
   interval = null;
+  totalWastedTime += timer; // Zeit vom aktuellen Lauf addieren
   timer = 0;
-  updateDisplay();
+  updateDisplay(); // Timer zurücksetzen
+  updateWastedTime();
   commentDisplay.textContent = "";
 });
 
@@ -34,6 +38,12 @@ function updateDisplay() {
   const minutes = String(Math.floor(timer / 60)).padStart(2, "0");
   const seconds = String(timer % 60).padStart(2, "0");
   timerDisplay.textContent = `${minutes}:${seconds}`;
+}
+
+function updateWastedTime() {
+  const minutes = String(Math.floor(totalWastedTime / 60)).padStart(2, "0");
+  const seconds = String(totalWastedTime % 60).padStart(2, "0");
+  wastedTimeDisplay.textContent = `${minutes}:${seconds}`;
 }
 
 function updateComment(seconds) {
