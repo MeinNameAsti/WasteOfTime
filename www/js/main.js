@@ -1,6 +1,7 @@
 let timer = 0;
-let totalWastedTime = 0;
 let interval = null;
+// Hole alten Wert aus dem localStorage oder 0, wenn keiner vorhanden
+let totalWastedTime = parseInt(localStorage.getItem("wastedTime")) || 0;
 
 const timerDisplay = document.getElementById("timer");
 const commentDisplay = document.getElementById("comment");
@@ -32,6 +33,7 @@ resetBtn.addEventListener("click", () => {
   updateDisplay(); // Timer zurücksetzen
   updateWastedTime();
   commentDisplay.textContent = "";
+  localStorage.setItem("wastedTime", totalWastedTime);
 });
 
 function updateDisplay() {
@@ -64,3 +66,5 @@ function updateComment(seconds) {
 function navigateTo(page) {
   window.location.href = page;
 }
+
+updateWastedTime();
