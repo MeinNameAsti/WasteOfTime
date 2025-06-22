@@ -7,6 +7,7 @@ body {
   height: 100vh;
   font-family: "Arima", sans-serif;
   color: #65574d;
+  font-weight: 700;
 }
 
 .welcomeText {
@@ -26,7 +27,7 @@ h1 {
 button {
   padding: 10px 20px;
   font-size: 1em;
-  background-color: #6fb6cf;
+  background-color: #8bd7f3;
   color: #65574d;
   border-color: #65574d;
   cursor: pointer;

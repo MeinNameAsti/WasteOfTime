@@ -1,12 +1,13 @@
 body {
   margin: 0;
   padding: 0;
-  background-color: #b4ebff;
+  background-color: #6fb6cf;
   background-size: cover;
   background-position: center;
   height: 100vh;
   font-family: "Arima", sans-serif;
   color: #65574d;
+  font-weight: 700;
 }
 
 .mainContent {
@@ -26,7 +27,7 @@ h1 {
 button {
   padding: 10px 20px;
   font-size: 1em;
-  background-color: #6fb6cf;
+  background-color: #8bd7f3;
   color: #65574d;
   border-color: #65574d;
   cursor: pointer;
@@ -75,8 +76,7 @@ main {
 }
 
 .shop-item button {
-  background-color: #2e8b57;
-  color: white;
+  background-color: #8bd7f3;
   padding: 10px 20px;
   border: none;
   border-radius: 8px;
@@ -84,5 +84,5 @@ main {
 }
 
 .shop-item button:hover {
-  background-color: #246b45;
+  background-color: #ddd;
 }
