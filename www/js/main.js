@@ -5,36 +5,44 @@ let totalWastedTime = parseInt(localStorage.getItem("wastedTime")) || 0;
 
 const timerDisplay = document.getElementById("timer");
 const commentDisplay = document.getElementById("comment");
-const startBtn = document.getElementById("start");
-const stopBtn = document.getElementById("stop");
-const resetBtn = document.getElementById("reset");
+const startBtn = document.getElementById("start"); //hab ich
+const stopBtn = document.getElementById("stop"); //hab ich
+const resetBtn = document.getElementById("reset"); //hab ich
 const wastedTimeDisplay = document.getElementById("wastedTime");
+const coinsTimeDisplay = document.getElementById("coins");
 
-startBtn.addEventListener("click", () => {
-  if (!interval) {
-    interval = setInterval(() => {
-      timer++;
-      updateDisplay();
-      updateComment(timer);
-    }, 1000);
-  }
-});
+if (startBtn) {
+  startBtn.addEventListener("click", () => {
+    if (!interval) {
+      interval = setInterval(() => {
+        timer++;
+        updateDisplay();
+        updateComment(timer);
+      }, 1000);
+    }
+  });
+}
 
-stopBtn.addEventListener("click", () => {
-  clearInterval(interval);
-  interval = null;
-});
+if (stopBtn) {
+  stopBtn.addEventListener("click", () => {
+    clearInterval(interval);
+    interval = null;
+  });
+}
 
-resetBtn.addEventListener("click", () => {
-  clearInterval(interval);
-  interval = null;
-  totalWastedTime += timer; // Zeit vom aktuellen Lauf addieren
-  timer = 0;
-  updateDisplay(); // Timer zurücksetzen
-  updateWastedTime();
-  commentDisplay.textContent = "";
-  localStorage.setItem("wastedTime", totalWastedTime);
-});
+if (resetBtn) {
+  resetBtn.addEventListener("click", () => {
+    clearInterval(interval);
+    interval = null;
+    totalWastedTime += timer; // Zeit vom aktuellen Lauf addieren
+    timer = 0;
+    updateDisplay(); // Timer zurücksetzen
+    updateWastedTime();
+    commentDisplay.textContent = "";
+    localStorage.setItem("wastedTime", totalWastedTime);
+    updateWastedTime(totalWastedTime);
+  });
+}
 
 function updateDisplay() {
   const minutes = String(Math.floor(timer / 60)).padStart(2, "0");
@@ -43,6 +51,9 @@ function updateDisplay() {
 }
 
 function updateWastedTime() {
+  const wastedTimeDisplay = document.getElementById("wastedTime");
+  const totalWastedTime = parseInt(localStorage.getItem("wastedTime")) || 0;
+  const coins = parseInt(localStorage.getItem("coins")) || 0;
   const minutes = String(Math.floor(totalWastedTime / 60)).padStart(2, "0");
   const seconds = String(totalWastedTime % 60).padStart(2, "0");
   wastedTimeDisplay.textContent = `${minutes}:${seconds}`;
@@ -79,3 +90,12 @@ function navigateTo(page) {
 }
 
 updateWastedTime();
+
+window.updateWastedTime = updateWastedTime;
+document.addEventListener("DOMContentLoaded", () => {
+  const coins = parseInt(localStorage.getItem("coins")) || 0;
+  updateCoins(coins);
+
+  const wastedTime = parseInt(localStorage.getItem("wastedTime")) || 0;
+  updateWastedTime(wastedTime);
+});
