@@ -4,7 +4,18 @@ A little game with a timer where you are rewarded for doing nothing
 
 ## 🕑 Current status
 
-![screenshot](/www/notizen/Aktueller_status.png)
+<table>
+  <tr>
+    <td><img src="www/img/readme/image_index.png" width="250" height="400"></td>
+    <td><img src="www/img/readme/Image_main.png" width="250" height="400"></td>
+    <td><img src="www/img/readme/Image_profil.png" width="250" height="400"></td>
+  </tr>
+  <tr>
+    <td><img src="www/img/readme/image_howtoplay.png" width="400" height="500"></td>
+    <td><img src="www/img/readme/image_shop.png" width="400" height="500"></td>
+    <td><img src="www/img/readme/image_settings.png" width="250" height="400"></td>
+  </tr>
+</table>
 
 ## ✔️ ToDo´s
 
@@ -17,14 +28,20 @@ A little game with a timer where you are rewarded for doing nothing
 - ~~Nach Ablauf bestimmter Zeit Sätze einblenden~~
 - ~~"verschwendete Zeit" zusammenrechnen lassen und als "Spielwährung" anzeigen~~
 - ~~Shop erstellen, indem man die "verschwendete Zeit" einlösen kann~~
-- Shopitem 'umwandler' einfügen (verschwendete Zeit im Münzen umwandeln)
+- ~~Shopitem 'umwandler' einfügen (verschwendete Zeit im Münzen umwandeln)~~
 - Weitere Shopitems einfügen
-- Einstellungsseite erstellen
-- Profilseite erstellen
+- ~~Einstellungsseite erstellen~~
+- ~~Profilseite erstellen~~
 - Rangstufen einführen für´s Profil
 - Icon für App einfügen
 - Namen im code (z.B für klassennamen usw) alle einheitlich
 - Screen für Login (Formular)
+- Alle verfügbaren Items im Inventar anzeigen
+- Name im Profil bearbeiten
+- Profilbild im Profil bearbeiten
+- Darkmode fixen
+- weitere Sprachen (Englisch & Spanisch) einfügen
+- Design ändern
 
 ## 🟦 Color Reference
 
