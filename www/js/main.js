@@ -10,6 +10,7 @@ const stopBtn = document.getElementById("stop"); //hab ich
 const resetBtn = document.getElementById("reset"); //hab ich
 const wastedTimeDisplay = document.getElementById("wastedTime");
 const coinsTimeDisplay = document.getElementById("coins");
+const inventoryDisplay = document.getElementById("inventory");
 
 if (startBtn) {
   startBtn.addEventListener("click", () => {
@@ -99,3 +100,10 @@ document.addEventListener("DOMContentLoaded", () => {
   const wastedTime = parseInt(localStorage.getItem("wastedTime")) || 0;
   updateWastedTime(wastedTime);
 });
+
+function updateInventory() {
+  const inventoryDisplay = document.getElementById("inventory");
+  inventoryDisplay.textContent = `Item_1`;
+}
+
+updateInventory();
