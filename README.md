@@ -22,26 +22,26 @@ A little game with a timer where you are rewarded for doing nothing
 - ~~Grundgerüst erstellen~~
 - ~~Startseite erstellen~~
 - ~~Hauptseite erstellen~~
-- Hauptseite verschönern
 - ~~Timer mit den Funktionen Start, Pause uns Reset~~
 - ~~Navigationsleiste oben oder unten erstellen mit "Profil", "Einstellungen" und "Shop"~~
 - ~~Nach Ablauf bestimmter Zeit Sätze einblenden~~
 - ~~"verschwendete Zeit" zusammenrechnen lassen und als "Spielwährung" anzeigen~~
 - ~~Shop erstellen, indem man die "verschwendete Zeit" einlösen kann~~
 - ~~Shopitem 'umwandler' einfügen (verschwendete Zeit im Münzen umwandeln)~~
-- Weitere Shopitems einfügen
 - ~~Einstellungsseite erstellen~~
 - ~~Profilseite erstellen~~
+- ~~Name im Profil bearbeiten~~
+- ~~Profilbild im Profil bearbeiten~~
+- Weitere Shopitems einfügen
 - Rangstufen einführen für´s Profil
 - Icon für App einfügen
 - Namen im code (z.B für klassennamen usw) alle einheitlich
 - Screen für Login (Formular)
 - Alle verfügbaren Items im Inventar anzeigen
-- Name im Profil bearbeiten
-- Profilbild im Profil bearbeiten
 - Darkmode fixen
 - weitere Sprachen (Englisch & Spanisch) einfügen
-- Design ändern
+- Design ändern / verschönern
+- Geänderter Name und Profilbild muss im storage gespeichert werden
 
 ## 🟦 Color Reference
 

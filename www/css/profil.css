@@ -73,7 +73,7 @@ main {
   color: #555;
 }
 
-.editable {
+.editable-name {
   display: inline-flex;
   align-items: center;
   gap: 5px;
@@ -93,4 +93,47 @@ main {
 input {
   font-size: 1em;
   padding: 2px 4px;
+}
+
+.editable-picture {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  position: relative;
+}
+
+/* Overlay Hintergrund */
+.overlay {
+  display: none; /* Anfangs unsichtbar */
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+/* Auswahl-Container */
+.overlay-content {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.overlay-content img {
+  width: 100px;
+  height: auto;
+  cursor: pointer;
+  border: 2px solid transparent;
+  border-radius: 5px;
+}
+
+.overlay-content img:hover {
+  border-color: #333;
 }

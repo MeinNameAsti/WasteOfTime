@@ -16,14 +16,27 @@
     <main>
       <h1>👤 Profil</h1>
       <main class="profil-container">
-        <img
-          src="/www/img/Profilbild.jpg"
-          alt="Profilbild"
-          class="profilbild"
-        />
-        <div class="profil-name editable">
+        <div class="editable-picture">
+          <img
+            id="main-image"
+            src="/www/img/Profilbild.jpg"
+            alt="Profilbild"
+            class="profilbild"
+          />
+          <span class="edit-icon" id="edit-btn-picture">✏️</span>
+        </div>
+        <div class="overlay" id="image-overlay">
+          <div class="overlay-content">
+            <img src="/www/img/Profilbild_1.jpg" alt="Option 1" />
+            <img src="/www/img/Profilbild_2.jpg" alt="Option 2" />
+            <img src="/www/img/Profilbild_3.jpg" alt="Option 3" />
+            <img src="/www/img/Profilbild_4.jpg" alt="Option 4" />
+            <img src="/www/img/Profilbild.jpg" alt="Option 5" />
+          </div>
+        </div>
+        <div class="profil-name editable-name">
           <span id="word">Astrid</span>
-          <span class="edit-icon" id="edit-btn">✏️</span>
+          <span class="edit-icon" id="edit-btn-name">✏️</span>
         </div>
         <p class="profil-rang">🥇 Rang: Gold</p>
       </main>
