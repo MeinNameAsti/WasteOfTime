@@ -27,3 +27,14 @@ radios.forEach((radio) => {
     radio.checked = true;
   }
 });
+
+// Spielstand zurücksetzen
+document.getElementById("reset-game").addEventListener("click", () => {
+  const confirmation = confirm(
+    "Willst du das Spiel wirklich zurücksetzen? Alle gespeicherten Daten gehen verloren."
+  );
+  if (confirmation) {
+    localStorage.clear(); // oder localStorage.removeItem("deinKey")
+    location.reload(); // Seite neu laden
+  }
+});

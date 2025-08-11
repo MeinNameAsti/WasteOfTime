@@ -81,3 +81,25 @@ body.darkmode input,
 body.darkmode label {
   color: #f1f1f1;
 }
+.reset-btn {
+  background: linear-gradient(135deg, #6fb6cf, #8bd7f3);
+  border: solid #65574d;
+  border-radius: 8px;
+  padding: 12px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #65574d;
+  cursor: pointer;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.reset-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+.reset-btn:active {
+  transform: translateY(0);
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
+}
