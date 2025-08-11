@@ -72,3 +72,25 @@ main {
   font-size: 18px;
   color: #555;
 }
+
+.editable {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  display: flex;
+  justify-content: center;
+}
+
+.edit-icon {
+  cursor: pointer;
+  font-size: 14px;
+  color: #666;
+}
+.edit-icon:hover {
+  color: #000;
+}
+
+input {
+  font-size: 1em;
+  padding: 2px 4px;
+}
