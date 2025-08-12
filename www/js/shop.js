@@ -17,11 +17,6 @@ function goBack() {
 }
 window.goBack = goBack;
 
-function kaufen(itemName) {
-  alert(`Du hast "${itemName}" gekauft! 🛍️`);
-}
-window.kaufen = kaufen;
-
 function buyConverter() {
   let totalWastedTime = parseInt(localStorage.getItem("wastedTime")) || 0;
   let coins = parseInt(localStorage.getItem("coins")) || 0;
@@ -37,6 +32,24 @@ function buyConverter() {
   }
 }
 window.buyConverter = buyConverter;
+
+function buyItemTimer(itemName = "ItemTimer") {
+  let coins = parseInt(localStorage.getItem("coins")) || 0;
+  if (coins < 100) {
+    alert(`Nicht genug Münzen`);
+  } else {
+    coins -= 100;
+    localStorage.setItem("coins", coins);
+
+    let itemCount = parseInt(localStorage.getItem(itemName)) || 0;
+    itemCount++;
+    localStorage.setItem(itemName, itemCount);
+
+    updateCoins(coins);
+  }
+  updateInventory();
+}
+window.buyItemTimer = buyItemTimer;
 
 function updateCoins(coins) {
   const coinsDisplay = document.getElementById("coins");

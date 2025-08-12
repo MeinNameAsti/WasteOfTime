@@ -101,9 +101,16 @@ document.addEventListener("DOMContentLoaded", () => {
   updateWastedTime(wastedTime);
 });
 
+const itemNames = ["ItemTimer", "WeiteresItem", "ItemDrei"];
+const inventory = document.getElementById("inventory");
+
 function updateInventory() {
-  const inventoryDisplay = document.getElementById("inventory");
-  inventoryDisplay.textContent = `Item_1`;
+  itemNames.forEach((name) => {
+    const count = parseInt(localStorage.getItem(name)) || 0;
+    const itemLine = document.createElement("div");
+    itemLine.textContent = `${name}: ${count} Stück`;
+    inventory.appendChild(itemLine);
+  });
 }
 
 updateInventory();
