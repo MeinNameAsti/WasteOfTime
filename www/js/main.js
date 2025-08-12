@@ -63,23 +63,24 @@ function updateWastedTime() {
 function updateComment(seconds) {
   const comments = {
     //Zeiten wurden zum Testen verringert
-    5: "30 Sekunden? Okey, Entspannung ist wichtig",
-    10: "1 Minute! Weiter so",
-    15: "3 Minuten nichts, du hättest in der Zeit den Müll raus bringen können",
-    20: "8 Minuten konsequent",
-    25: "15 Minuten schon, was mache ich hier eigentlich",
-    30: "Halbe Stunde. Das ist nicht nur Zeitvertreib",
-    35: "In 45 Minuten hätte man einen Kuchen backen können. Oder ein Puzzle anfangen. Du nicht.",
-    40: "Eine Stunde. Andere gehen joggen und du sitzt hier...",
-    45: "1,5 Stunden! Du bist doch komplett raus",
-    50: "2 Stunden! Willst du nicht langsam ein Zertifikat für Nichtstun?",
-    55: "Drei Stunden. Manche Menschen schlafen weniger.",
-    60: "4 Stunden. Willkommen im Club der aktiven Inaktivität.",
-    65: "6 Stunden. Soll ich jemanden rufen?",
-    70: "8 Stunden. Ein voller Arbeitstag. Für nichts.",
-    75: "12 Stunden... Du hast es ernsthaft durchgezogen. Ich bin beeindruckt. Und etwas besorgt.",
-    80: "18 Stunden.. Ja, was soll ich noch sagen?!",
-    85: "24 Stunden? Glückwunsch!",
+    30: "30 Sekunden? Okey, Entspannung ist wichtig",
+    60: "1 Minute! Weiter so",
+    180: "3 Minuten nichts, du hättest in der Zeit den Müll raus bringen können",
+    480: "8 Minuten konsequent",
+    900: "15 Minuten schon, was mache ich hier eigentlich",
+    1800: "Halbe Stunde. Das ist nicht nur Zeitvertreib",
+    2700: "In 45 Minuten hätte man einen Kuchen backen können. Oder ein Puzzle anfangen. Du nicht.",
+    3600: "Eine Stunde. Andere gehen joggen und du sitzt hier...",
+    5400: "1,5 Stunden! Du bist doch komplett raus",
+    7200: "2 Stunden! Willst du nicht langsam ein Zertifikat für Nichtstun?",
+    10800: "Drei Stunden. Manche Menschen schlafen weniger.",
+    14400: "4 Stunden. Willkommen im Club der aktiven Inaktivität.",
+    21600: "6 Stunden. Soll ich jemanden rufen?",
+    28800: "8 Stunden. Ein voller Arbeitstag. Für nichts.",
+    43200:
+      "12 Stunden... Du hast es ernsthaft durchgezogen. Ich bin beeindruckt. Und etwas besorgt.",
+    64800: "18 Stunden.. Ja, was soll ich noch sagen?!",
+    86400: "24 Stunden? Glückwunsch!",
   };
   if (comments[seconds]) {
     commentDisplay.textContent = comments[seconds];

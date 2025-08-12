@@ -50,9 +50,14 @@ main {
 }
 
 .einstellungen-container {
-  padding: 20px;
-  max-width: 500px;
-  margin: 0 auto;
+  text-align: center;
+  margin: auto;
+  padding-bottom: 20px;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  margin: 20px 0;
+  background-color: rgba(240, 248, 255, 0.856);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
 }
 
 .einstellungen-container h1 {
