@@ -42,6 +42,10 @@ A little game with a timer where you are rewarded for doing nothing
 - weitere Sprachen (Englisch & Spanisch) einfügen
 - Design ändern / verschönern
 - Geänderter Name und Profilbild muss im storage gespeichert werden
+- Funktion des Items Sanduhr
+- Möglichkeit Items aus dem Shop zu kaufen
+- Quick time events (Minispiel) einfügen um Münzen zu erlangen
+- Statistiken in den Einstellungen anzeigen (z.B insgesamt verschwendete Zeit)
 
 ## 🟦 Color Reference
 
