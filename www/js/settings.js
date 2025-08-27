@@ -15,7 +15,7 @@ toggle.addEventListener("change", () => {
   localStorage.setItem("darkmode", toggle.checked);
 });
 
-// Sprache speichern (optional)
+// Sprache speichern
 const radios = document.querySelectorAll("input[name='sprache']");
 radios.forEach((radio) => {
   radio.addEventListener("change", () => {
@@ -34,7 +34,7 @@ document.getElementById("reset-game").addEventListener("click", () => {
     "Willst du das Spiel wirklich zurücksetzen? Alle gespeicherten Daten gehen verloren."
   );
   if (confirmation) {
-    localStorage.clear(); // oder localStorage.removeItem("deinKey")
+    localStorage.clear();
     location.reload(); // Seite neu laden
   }
 });
