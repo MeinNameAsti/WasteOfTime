@@ -33,10 +33,10 @@ function buyConverter() {
 }
 window.buyConverter = buyConverter;
 
-function buyItemTimer(itemName = "ItemTimer") {
+function buyItemTimer(itemName = "Sanduhr") {
   let coins = parseInt(localStorage.getItem("coins")) || 0;
   if (coins < 100) {
-    alert(`Nicht genug Münzen`);
+    alert(`Nicht genug Münzen für Sanduhr`);
   } else {
     coins -= 100;
     localStorage.setItem("coins", coins);
@@ -50,6 +50,24 @@ function buyItemTimer(itemName = "ItemTimer") {
   updateInventory();
 }
 window.buyItemTimer = buyItemTimer;
+
+function buyItemIntern(itemName = "Praktikant") {
+  let coins = parseInt(localStorage.getItem("coins")) || 0;
+  if (coins < 100) {
+    alert(`Nicht genug Münzen für Praktikant`);
+  } else {
+    coins -= 100;
+    localStorage.setItem("coins", coins);
+
+    let itemCount = parseInt(localStorage.getItem(itemName)) || 0;
+    itemCount++;
+    localStorage.setItem(itemName, itemCount);
+
+    updateCoins(coins);
+  }
+  updateInventory();
+}
+window.buyItemInter = buyItemIntern;
 
 function updateCoins(coins) {
   const coinsDisplay = document.getElementById("coins");

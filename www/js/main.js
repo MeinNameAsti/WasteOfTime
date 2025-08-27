@@ -101,7 +101,7 @@ document.addEventListener("DOMContentLoaded", () => {
   updateWastedTime(wastedTime);
 });
 
-const itemNames = ["ItemTimer", "WeiteresItem", "ItemDrei"];
+const itemNames = ["Sanduhr", "Praktikant"];
 const inventory = document.getElementById("inventory");
 
 function updateInventory() {
