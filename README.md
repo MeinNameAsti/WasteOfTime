@@ -33,7 +33,6 @@ A little game with a timer where you are rewarded for doing nothing
 - ~~Name im Profil bearbeiten~~
 - ~~Profilbild im Profil bearbeiten~~
 - Weitere Shopitems einfügen
-- Rangstufen einführen für´s Profil
 - Icon für App einfügen
 - Namen im code (z.B für klassennamen usw) alle einheitlich
 - Screen für Login (Formular)
@@ -43,9 +42,11 @@ A little game with a timer where you are rewarded for doing nothing
 - Design ändern / verschönern
 - Geänderter Name und Profilbild muss im storage gespeichert werden
 - Funktion des Items Sanduhr
-- Möglichkeit Items aus dem Shop zu kaufen
 - Quick time events (Minispiel) einfügen um Münzen zu erlangen
 - Statistiken in den Einstellungen anzeigen (z.B insgesamt verschwendete Zeit)
+- Button im Inventar um Items zu verwenden
+- Info´s zum Rang im Profil einfügen
+- Alert wenn neuer Rang erreicht wurde
 
 ## 🟦 Color Reference
 

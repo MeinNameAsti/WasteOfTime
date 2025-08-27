@@ -5,9 +5,9 @@ let totalWastedTime = parseInt(localStorage.getItem("wastedTime")) || 0;
 
 const timerDisplay = document.getElementById("timer");
 const commentDisplay = document.getElementById("comment");
-const startBtn = document.getElementById("start"); //hab ich
-const stopBtn = document.getElementById("stop"); //hab ich
-const resetBtn = document.getElementById("reset"); //hab ich
+const startBtn = document.getElementById("start");
+const stopBtn = document.getElementById("stop");
+const resetBtn = document.getElementById("reset");
 const wastedTimeDisplay = document.getElementById("wastedTime");
 const coinsTimeDisplay = document.getElementById("coins");
 const inventoryDisplay = document.getElementById("inventory");
@@ -62,7 +62,6 @@ function updateWastedTime() {
 
 function updateComment(seconds) {
   const comments = {
-    //Zeiten wurden zum Testen verringert
     30: "30 Sekunden? Okey, Entspannung ist wichtig",
     60: "1 Minute! Weiter so",
     180: "3 Minuten nichts, du hättest in der Zeit den Müll raus bringen können",
