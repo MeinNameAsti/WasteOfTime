@@ -67,3 +67,7 @@ main {
 #inventory {
   border: solid #65574d 1px;
 }
+
+#inventory button {
+  transform: scale(0.75); /* Skalierung, verkleinert alles proportional */
+}

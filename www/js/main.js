@@ -108,7 +108,11 @@ function updateInventory() {
   itemNames.forEach((name) => {
     const count = parseInt(localStorage.getItem(name)) || 0;
     const itemLine = document.createElement("div");
+    const btnUseItem = document.createElement("button");
+    btnUseItem.textContent = "verwenden";
+    btnUseItem.onclick = () => alert("Item verwendet");
     itemLine.textContent = `${name}: ${count} Stück`;
+    itemLine.appendChild(btnUseItem);
     inventory.appendChild(itemLine);
   });
 }
