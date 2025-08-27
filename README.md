@@ -36,15 +36,13 @@ A little game with a timer where you are rewarded for doing nothing
 - Icon für App einfügen
 - Namen im code (z.B für klassennamen usw) alle einheitlich
 - Screen für Login (Formular)
-- Alle verfügbaren Items im Inventar anzeigen
 - Darkmode fixen
 - weitere Sprachen (Englisch & Spanisch) einfügen
 - Design ändern / verschönern
-- Geänderter Name und Profilbild muss im storage gespeichert werden
 - Funktion des Items Sanduhr
+- Funktion des Items Praktikant
 - Quick time events (Minispiel) einfügen um Münzen zu erlangen
 - Statistiken in den Einstellungen anzeigen (z.B insgesamt verschwendete Zeit)
-- Button im Inventar um Items zu verwenden
 - Info´s zum Rang im Profil einfügen
 - Alert wenn neuer Rang erreicht wurde
 

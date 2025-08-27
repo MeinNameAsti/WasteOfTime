@@ -4,7 +4,21 @@ function goBack() {
 
 const profilName = document.getElementById("word");
 const editBtn = document.getElementById("edit-btn-name");
+const editBtnPicture = document.getElementById("edit-btn-picture");
+const overlay = document.getElementById("image-overlay");
+const mainImage = document.getElementById("main-image");
 
+const gespeicherterName = localStorage.getItem("profilName");
+if (gespeicherterName) {
+  profilName.textContent = gespeicherterName;
+}
+
+const gespeichertesBild = localStorage.getItem("profilBild");
+if (gespeichertesBild) {
+  mainImage.src = gespeichertesBild;
+}
+
+//Name bearbeiten
 editBtn.addEventListener("click", () => {
   const oldValue = profilName.textContent;
 
@@ -27,6 +41,7 @@ editBtn.addEventListener("click", () => {
       );
       if (confirmChange) {
         profilName.textContent = newValue;
+        localStorage.setItem("profilName", newValue);
       } else {
         profilName.textContent = oldValue;
       }
@@ -45,10 +60,6 @@ editBtn.addEventListener("click", () => {
   input.addEventListener("keydown", keyHandler);
 });
 
-const editBtnPicture = document.getElementById("edit-btn-picture");
-const overlay = document.getElementById("image-overlay");
-const mainImage = document.getElementById("main-image");
-
 // Klick auf Bleistift → Overlay anzeigen
 editBtnPicture.addEventListener("click", () => {
   overlay.style.display = "flex";
@@ -60,6 +71,7 @@ overlay.querySelectorAll("img").forEach((optionImg) => {
     const confirmChange = confirm("Willst du wirklich das Bild ändern?");
     if (confirmChange) {
       mainImage.src = optionImg.src;
+      localStorage.setItem("profilBild", optionImg.src);
     }
     overlay.style.display = "none";
   });
