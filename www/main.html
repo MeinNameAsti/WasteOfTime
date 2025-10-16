@@ -21,28 +21,29 @@
           <button onclick="navigateTo('shop.html')">🛒</button>
           <button onclick="navigateTo('settings.html')">⚙️</button>
         </nav>
-        <h1>waste of time</h1>
+        <h1 data-i18n="main_headline">waste of time</h1>
         <div id="timer">00:00</div>
         <div class="buttons">
-          <button id="start">Start</button>
-          <button id="stop">Stop</button>
-          <button id="reset">Reset</button>
+          <button data-i18n="main_button1" id="start">Start</button>
+          <button data-i18n="main_button2" id="stop">Stop</button>
+          <button data-i18n="main_button3" id="reset">Reset</button>
         </div>
         <p id="comment"></p>
         <br /><br />
-        ⏱️ verschwendete Zeit:<br />
+        <p data-i18n="main_p1">⏱️ verschwendete Zeit:</p>
         <div id="wastedTime">00:00</div>
-        <br />
-        💰 Münzen: <br />
+        <p data-i18n="main_p2">💰 Münzen:</p>
         <div id="coins">0</div>
-        <br />
-        💼 Inventar: <br /><br />
+        <p data-i18n="main_p3">💼 Inventar:</p>
         <div id="inventory"></div>
         <br />
-        <button onclick="navigateTo('index.html')">zum Login</button>
+        <button data-i18n="main_button4" onclick="navigateTo('index.html')">
+          zum Login
+        </button>
       </main>
     </div>
     <script src="js/main.js"></script>
     <script src="js/shop.js"></script>
+    <script src="js/settings.js"></script>
   </body>
 </html>

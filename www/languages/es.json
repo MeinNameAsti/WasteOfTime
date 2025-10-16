@@ -23,5 +23,14 @@
   "howtoplay_p2": "Después de hacer clic en 'reset', guarda tu 'tiempo perdido'.",
   "howtoplay_p3": "En la tienda puedes convertir el 'tiempo perdido' en monedas.",
   "howtoplay_p4": "Con estas monedas puedes comprar objetos.",
-  "howtoplay_p5": "Estos artículos aparecerán en tu inventario en la página de inicio."
+  "howtoplay_p5": "Estos artículos aparecerán en tu inventario en la página de inicio.",
+
+  "main_headline": "Waste of time",
+  "main_button1": "Iniciar",
+  "main_button2": "Stop",
+  "main_button3": "Reset",
+  "main_button4": "Volver al registro",
+  "main_p1": "⏱️ Tiempo perdido:",
+  "main_p2": "💰 Monedas:",
+  "main_p3": "💼 Inventario:"
 }

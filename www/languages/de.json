@@ -23,5 +23,14 @@
   "howtoplay_p2": "Nachdem du auf 'reset' klickst speicherst du dir deine 'verschwendete Zeit' ab.",
   "howtoplay_p3": "Im Shop kannst du 'verschwendete Zeit' in Münzen umzuwandeln.",
   "howtoplay_p4": "Mit diesen Münzen kannst du wiederum Items kaufen.",
-  "howtoplay_p5": "Diese Items werden dir dann auf der Startseite in deinem Inventar angezeigt."
+  "howtoplay_p5": "Diese Items werden dir dann auf der Startseite in deinem Inventar angezeigt.",
+
+  "main_headline": "Waste of time",
+  "main_button1": "Start",
+  "main_button2": "Stop",
+  "main_button3": "Reset",
+  "main_button4": "Zurück zur Anmeldung",
+  "main_p1": "⏱️ Verschwendete Zeit:",
+  "main_p2": "💰 Münzen:",
+  "main_p3": "💼 Inventar:"
 }

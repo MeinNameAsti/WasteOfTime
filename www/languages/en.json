@@ -23,5 +23,14 @@
   "howtoplay_p2": "Clicking on 'reset' will save your 'wasted time'.",
   "howtoplay_p3": "In the shop, you can convert 'wasted time' into coins.",
   "howtoplay_p4": "You can use these coins to buy items.",
-  "howtoplay_p5": "These items will then be displayed in your inventory on the main page."
+  "howtoplay_p5": "These items will then be displayed in your inventory on the main page.",
+
+  "main_headline": "Waste of time",
+  "main_button1": "Start",
+  "main_button2": "Stop",
+  "main_button3": "Reset",
+  "main_button4": "Back to login",
+  "main_p1": "⏱️ Wasted time:",
+  "main_p2": "💰 Coins:",
+  "main_p3": "💼 Inventory:"
 }
