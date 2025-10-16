@@ -13,5 +13,8 @@
   "settings_language_de": "Deutsch",
   "settings_language_en": "Englisch",
   "settings_language_es": "Spanisch",
-  "settings_button1": "🔄 Spielstand zurücksetzen"
+  "settings_button1": "🔄 Spielstand zurücksetzen",
+
+  "profil_headline": "👤 Profil",
+  "profil_tier": "🥇 Rang: Gold"
 }

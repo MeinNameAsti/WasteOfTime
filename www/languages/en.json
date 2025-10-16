@@ -13,5 +13,8 @@
   "settings_language_de": "German",
   "settings_language_en": "English",
   "settings_language_es": "Spanish",
-  "settings_button1": "🔄 Reset game"
+  "settings_button1": "🔄 Reset game",
+
+  "profil_headline": "👤 Profile",
+  "profil_tier": "🥇 Tier: Gold"
 }

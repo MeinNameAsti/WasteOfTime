@@ -13,5 +13,8 @@
   "settings_language_de": "Alemán",
   "settings_language_en": "Inglés",
   "settings_language_es": "Español",
-  "settings_button1": "🔄 Restaurar el juego"
+  "settings_button1": "🔄 Restaurar el juego",
+
+  "profil_headline": "👤 Perfil",
+  "profil_tier": "🥇 Clasificación: Oro"
 }
