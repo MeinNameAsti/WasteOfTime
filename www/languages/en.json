@@ -16,5 +16,12 @@
   "settings_button1": "🔄 Reset game",
 
   "profil_headline": "👤 Profile",
-  "profil_tier": "🥇 Tier: Gold"
+  "profil_tier": "🥇 Tier: Gold",
+
+  "howtoplay_headline": "❓ How to play",
+  "howtoplay_p1": "You collect 'wasted time' by starting the timer and waiting.",
+  "howtoplay_p2": "Clicking on 'reset' will save your 'wasted time'.",
+  "howtoplay_p3": "In the shop, you can convert 'wasted time' into coins.",
+  "howtoplay_p4": "You can use these coins to buy items.",
+  "howtoplay_p5": "These items will then be displayed in your inventory on the main page."
 }

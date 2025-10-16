@@ -16,5 +16,12 @@
   "settings_button1": "🔄 Spielstand zurücksetzen",
 
   "profil_headline": "👤 Profil",
-  "profil_tier": "🥇 Rang: Gold"
+  "profil_tier": "🥇 Rang: Gold",
+
+  "howtoplay_headline": "❓ Wie wird gespielt",
+  "howtoplay_p1": "Du sammelst 'verschwendete Zeit' indem du den Timer startest undwartest.",
+  "howtoplay_p2": "Nachdem du auf 'reset' klickst speicherst du dir deine 'verschwendete Zeit' ab.",
+  "howtoplay_p3": "Im Shop kannst du 'verschwendete Zeit' in Münzen umzuwandeln.",
+  "howtoplay_p4": "Mit diesen Münzen kannst du wiederum Items kaufen.",
+  "howtoplay_p5": "Diese Items werden dir dann auf der Startseite in deinem Inventar angezeigt."
 }

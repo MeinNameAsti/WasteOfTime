@@ -16,5 +16,12 @@
   "settings_button1": "🔄 Restaurar el juego",
 
   "profil_headline": "👤 Perfil",
-  "profil_tier": "🥇 Clasificación: Oro"
+  "profil_tier": "🥇 Clasificación: Oro",
+
+  "howtoplay_headline": "❓ ¿Cómo se juega?",
+  "howtoplay_p1": "Acumulas 'tiempo perdido' al poner en marcha el temporizador y esperar.",
+  "howtoplay_p2": "Después de hacer clic en 'reset', guarda tu 'tiempo perdido'.",
+  "howtoplay_p3": "En la tienda puedes convertir el 'tiempo perdido' en monedas.",
+  "howtoplay_p4": "Con estas monedas puedes comprar objetos.",
+  "howtoplay_p5": "Estos artículos aparecerán en tu inventario en la página de inicio."
 }
