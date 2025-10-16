@@ -5,5 +5,13 @@
 
   "index_headline": "Es hora de perder el tiempo!",
   "index_button1": "Empezar",
-  "index_button2": "Conectar"
+  "index_button2": "Conectar",
+
+  "settings_headline": "⚙️ Configuración",
+  "settings_colormode": "🌙 Modo oscuro",
+  "settings_language": "🌍 idioma",
+  "settings_language_de": "Alemán",
+  "settings_language_en": "Inglés",
+  "settings_language_es": "Español",
+  "settings_button1": "🔄 Restaurar el juego"
 }

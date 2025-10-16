@@ -15,28 +15,52 @@
   <body>
     <main>
       <main class="einstellungen-container">
-        <h1>⚙️ Einstellungen</h1>
+        <h1 data-i18n="settings_headline">⚙️ Einstellungen</h1>
         <div class="einstellungs-option">
-          <label for="darkmode-toggle">🌙 Dark Mode:</label>
+          <label data-i18n="settings_colormode" for="darkmode-toggle"
+            >🌙 Dark Mode:</label
+          >
           <input type="checkbox" id="darkmode-toggle" />
         </div>
         <div class="einstellungs-option">
-          <p>🌍 Sprache:</p>
+          <p data-i18n="settings_language">🌍 Sprache:</p>
           <div class="radio-group">
             <label
-              ><input type="radio" name="sprache" value="de" checked />
+              ><input
+                data-i18n="settings_language_de"
+                type="radio"
+                name="sprache"
+                value="de"
+                checked
+              />
               Deutsch</label
             >
             <label
-              ><input type="radio" name="sprache" value="en" /> English</label
+              ><input
+                data-i18n="settings_language_en"
+                type="radio"
+                name="sprache"
+                value="en"
+              />
+              English</label
             >
             <label
-              ><input type="radio" name="sprache" value="es" /> Español</label
+              ><input
+                data-i18n="settings_language_es"
+                type="radio"
+                name="sprache"
+                value="es"
+              />
+              Español</label
             >
           </div>
         </div>
         <div class="einstellungs-option">
-          <button class="reset-btn" id="reset-game">
+          <button
+            data-i18n="settings_button1"
+            class="reset-btn"
+            id="reset-game"
+          >
             🔄 Spielstand zurücksetzen
           </button>
         </div>

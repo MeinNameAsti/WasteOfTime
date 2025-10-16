@@ -5,5 +5,13 @@
 
   "index_headline": "Es ist Zeit, Zeit zu verschwenden!",
   "index_button1": "Start",
-  "index_button2": "Anmelden"
+  "index_button2": "Anmelden",
+
+  "settings_headline": "⚙️ Einstellungen",
+  "settings_colormode": "🌙 Dark Mode",
+  "settings_language": "🌍 Sprache",
+  "settings_language_de": "Deutsch",
+  "settings_language_en": "Englisch",
+  "settings_language_es": "Spanisch",
+  "settings_button1": "🔄 Spielstand zurücksetzen"
 }
