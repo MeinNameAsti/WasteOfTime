@@ -16,33 +16,46 @@
     <main>
       <br /><br />
       <main class="shop-container">
-        <h1>🛒 Shop</h1>
+        <h1 data-i18n="shop_headline">🛒 Shop</h1>
         <!------------------------------------------------------------------------>
         <div class="shop-item">
-          <h2>Wandle deine verschwendete Zeit in Münzen um</h2>
-          <p>Beschreibung: 15 Sekunden verschwendete Zeit geben dir 5 Münzen</p>
-          <button onclick="buyConverter()">Kaufen</button>
+          <h2 data-i18n="shop_converter_headline">
+            Wandle deine verschwendete Zeit in Münzen um
+          </h2>
+          <p data-i18n="shop_converter_p">
+            Beschreibung: 15 Sekunden verschwendete Zeit geben dir 5 Münzen
+          </p>
+          <button data-i18n="shop_button1" onclick="buyConverter()">
+            Kaufen
+          </button>
         </div>
         <!------------------------------------------------------------------------>
         <div class="shop-item">
-          <h2>Item: Sanduhr ⏳</h2>
-          <p>Beschreibung: Die Zeit vergeht 2x so schnell (läuft 1 Minute)</p>
-          <p class="preis">💰 Preis: 100 Münzen</p>
-          <button onclick="buyItemTimer()">Kaufen</button>
+          <h2 data-i18n="shop_item1_headline">Item: Sanduhr ⏳</h2>
+          <p data-i18n="shop_item1_p">
+            Beschreibung: Die Zeit vergeht 2x so schnell (läuft 1 Minute)
+          </p>
+          <p data-i18n="shop_item1_coins" class="preis">💰 Preis: 100 Münzen</p>
+          <button data-i18n="shop_button2" onclick="buyItemTimer()">
+            Kaufen
+          </button>
         </div>
         <!------------------------------------------------------------------------>
         <div class="shop-item">
-          <h2>Item: Praktikant 👩‍🎓</h2>
-          <p>gibt 1 Münze pro 2 Minuten (Arbeitet 10 Minuten)</p>
-          <p class="preis">💰 Preis: 100 Münzen</p>
-          <button onclick="buyItemIntern()">Kaufen</button>
+          <h2 data-i18n="shop_item2_headline">Item: Praktikant 👩‍🎓</h2>
+          <p data-i18n="shop_item2_p">
+            gibt 1 Münze pro 2 Minuten (Arbeitet 10 Minuten)
+          </p>
+          <p data-i18n="shop_item2_coins" class="preis">💰 Preis: 100 Münzen</p>
+          <button data-i18n="shop_button3" onclick="buyItemIntern()">
+            Kaufen
+          </button>
         </div>
       </main>
-      <br /><br /><br />
-      ⏱️ verschwendete Zeit: <br /><br />
-      <div id="wastedTime">00:00</div>
       <br />
-      💰 Münzen: <br /><br />
+      <p data-i18n="shop_p1">⏱️ verschwendete Zeit:</p>
+      <div id="wastedTime">00:00</div>
+      <p data-i18n="shop_p2">💰 Münzen:</p>
       <div id="coins">0</div>
       <br />
       <div class="return-button">
@@ -51,5 +64,6 @@
     </main>
     <script src="js/main.js"></script>
     <script src="js/shop.js"></script>
+    <script src="js/settings.js"></script>
   </body>
 </html>

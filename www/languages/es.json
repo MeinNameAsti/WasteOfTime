@@ -32,5 +32,20 @@
   "main_button4": "Volver al registro",
   "main_p1": "⏱️ Tiempo perdido:",
   "main_p2": "💰 Monedas:",
-  "main_p3": "💼 Inventario:"
+  "main_p3": "💼 Inventario:",
+
+  "shop_headline": "🛒 Tienda",
+  "shop_converter_headline": "Convierte tu tiempo perdido en monedas",
+  "shop_converter_p": "Descripción: 15 segundos de tiempo perdido te dan 5 monedas",
+  "shop_item1_headline": "Objeto: reloj de arena ⏳",
+  "shop_item1_p": "Descripción: El tiempo pasa dos veces más rápido (corre 1 minuto)",
+  "shop_item1_coins": "💰 Precio: 100 monedas",
+  "shop_item2_headline": "Objeto: Becario 👩‍🎓",
+  "shop_item2_p": "Descripción: Da 1 moneda cada 2 minutos (funciona durante 10 minutos)",
+  "shop_item2_coins": "💰 Precio: 100 monedas",
+  "shop_p1": "⏱️ Tiempo perdido:",
+  "shop_p2": "💰 Monedas:",
+  "shop_button1": "Comprar",
+  "shop_button2": "Comprar",
+  "shop_button3": "Comprar"
 }

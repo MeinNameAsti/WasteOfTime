@@ -32,5 +32,20 @@
   "main_button4": "Back to login",
   "main_p1": "⏱️ Wasted time:",
   "main_p2": "💰 Coins:",
-  "main_p3": "💼 Inventory:"
+  "main_p3": "💼 Inventory:",
+
+  "shop_headline": "🛒 Shop",
+  "shop_converter_headline": "Turn your wasted time into coins",
+  "shop_converter_p": "Description: 15 seconds of wasted time earns you 5 coins",
+  "shop_item1_headline": "Item: Hourglass ⏳",
+  "shop_item1_p": "Description: Time passes twice as fast (runs for 1 minute)",
+  "shop_item1_coins": "💰 Price: 100 coins",
+  "shop_item2_headline": "Item: Intern 👩‍🎓",
+  "shop_item2_p": "Description: gives 1 coin every 2 minutes (works for 10 minutes)",
+  "shop_item2_coins": "💰 Price: 100 coins",
+  "shop_p1": "⏱️ wasted time:",
+  "shop_p2": "💰 Coins:",
+  "shop_button1": "Buy",
+  "shop_button2": "Buy",
+  "shop_button3": "Buy"
 }

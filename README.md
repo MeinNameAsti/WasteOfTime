@@ -33,7 +33,7 @@ A little game with a timer where you are rewarded for doing nothing
 - ~~Name im Profil bearbeiten~~
 - ~~Profilbild im Profil bearbeiten~~
 - ~~weitere Sprachen (Englisch & Spanisch) einfügen~~
-- Alle Sprachen einpflegen über das json
+- ~~Alle Sprachen einpflegen über das json~~
 - Weitere Shopitems einfügen
 - Icon für App einfügen
 - Namen im code (z.B für klassennamen usw) alle einheitlich
@@ -43,7 +43,6 @@ A little game with a timer where you are rewarded for doing nothing
 - Funktion des Items Sanduhr
 - Funktion des Items Praktikant
 - Quick time events (Minispiel) einfügen um Münzen zu erlangen
-- Statistiken in den Einstellungen anzeigen (z.B insgesamt verschwendete Zeit)
 - Info´s zum Rang im Profil einfügen
 - Alert wenn neuer Rang erreicht wurde
 

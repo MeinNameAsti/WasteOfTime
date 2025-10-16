@@ -32,5 +32,20 @@
   "main_button4": "Zurück zur Anmeldung",
   "main_p1": "⏱️ Verschwendete Zeit:",
   "main_p2": "💰 Münzen:",
-  "main_p3": "💼 Inventar:"
+  "main_p3": "💼 Inventar:",
+
+  "shop_headline": "🛒 Shop",
+  "shop_converter_headline": "Wandle deine verschwendete Zeit in Münzen um",
+  "shop_converter_p": "Beschreibung: 15 Sekunden verschwendete Zeit geben dir 5 Münzen",
+  "shop_item1_headline": "Item: Sanduhr ⏳",
+  "shop_item1_p": "Beschreibung: Die Zeit vergeht 2x so schnell (läuft 1 Minute)",
+  "shop_item1_coins": "💰 Preis: 100 Münzen",
+  "shop_item2_headline": "Item: Praktikant 👩‍🎓",
+  "shop_item2_p": "Beschreibung: gibt 1 Münze pro 2 Minuten (Arbeitet 10 Minuten)",
+  "shop_item2_coins": "💰 Preis: 100 Münzen",
+  "shop_p1": "⏱️ verschwendete Zeit:",
+  "shop_p2": "💰 Münzen:",
+  "shop_button1": "Kaufen",
+  "shop_button2": "Kaufen",
+  "shop_button3": "Kaufen"
 }
