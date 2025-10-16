@@ -32,12 +32,13 @@ A little game with a timer where you are rewarded for doing nothing
 - ~~Profilseite erstellen~~
 - ~~Name im Profil bearbeiten~~
 - ~~Profilbild im Profil bearbeiten~~
+- ~~weitere Sprachen (Englisch & Spanisch) einfügen~~
+- Alle Sprachen einpflegen über das json
 - Weitere Shopitems einfügen
 - Icon für App einfügen
 - Namen im code (z.B für klassennamen usw) alle einheitlich
 - Screen für Login (Formular)
 - Darkmode fixen
-- weitere Sprachen (Englisch & Spanisch) einfügen
 - Design ändern / verschönern
 - Funktion des Items Sanduhr
 - Funktion des Items Praktikant
